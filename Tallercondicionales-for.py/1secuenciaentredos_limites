@@ -1,0 +1,18 @@
+"""
+Ejercicio 1:
+Una pantalla debe presentar todos los enteros comprendidos entre dos límites
+A y B, ambos incluidos, empezando por A y terminando por B.
+Los limites son enteros entre -100 y 100. si coinciden, presente ese único valor
+"""
+
+A = int(input("Ingrese numeroA: "))
+B = int(input("Ingrese numeroB: "))
+
+if A < B:
+    print (1)
+elif A > B:
+    print (-1)
+else:
+    print ("No coincide")
+
+print(list(range( A, B + 1)))
